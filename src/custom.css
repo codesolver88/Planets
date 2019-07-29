@@ -1,0 +1,82 @@
+
+.login-form form {
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+.error {
+  color: #ba2c13;
+  font-size: 14px;
+  font-weight: bold;
+}
+.info {
+  background: #98befa;
+  padding: 6px;
+  border-radius: 5px;
+  font-style: italic;
+}
+.serach-label {
+  background: #265db5;
+  color: #fff;
+  padding: 9px;
+  font-weight: 800;
+}
+.planet-container input {
+  font-size: 14px !important;
+  width: 94% !important;
+  border-radius: 5px !important;
+}
+.searchDetails {
+  text-align: center;
+    padding: 15px;
+    background-color: #758194;
+    border-radius: 10px;
+    color: #fff;
+    font-family: cursive;
+    margin: 10px 0;
+}
+.navbar {
+  background-color: #000!important;
+  color: #fff !important;
+  padding : 14px;
+}
+/* .rbt-input-hint-container input[type="text"] {
+    border :  5px solid #ccc!important
+} */
+.rbt {
+  width : 82%!important;
+  float: left;
+}
+body {
+  background-image: url('./images/planets.jpg');
+  background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+h2 {
+  font-family: cursive !important;
+}
+.planet-container {
+  background-color: #fff;
+  height: 610px;
+}
+.serach-component {
+  padding: 30px;
+}
+.btn-holder {
+  margin: 20px 0;
+}
+.blinking{
+	animation:blinkingText 0.8s infinite;
+}
+@keyframes blinkingText{
+	0%{		color: #000;	}
+	49%{	color: transparent;	}
+	50%{	color: transparent;	}
+	99%{	color:transparent;	}
+	100%{	color: #000;	}
+}
